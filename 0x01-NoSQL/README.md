@@ -16,14 +16,14 @@ Project done during ALX Software Engineering Scholarship Programme 2022 at Alx S
 ## Resources
 Read or watch:
 
-* [NoSQL Databases Explained]()
-* [What is NoSQL ?]()
-* [MongoDB with Python Crash Course - Tutorial for Beginners]()
-* [MongoDB Tutorial 2 : Insert, Update, Remove, Query]()
-* [Aggregation]()
-* [Introduction to MongoDB and Python]()
-* [mongo Shell Methods]()
-* [The mongo Shell]()
+* [NoSQL Databases Explained](https://riak.com/resources/nosql-databases/)
+* [What is NoSQL ?](https://www.youtube.com/watch?v=qUV2j3XBRHc)
+* [MongoDB with Python Crash Course - Tutorial for Beginners](https://www.youtube.com/watch?v=E-1xI85Zog8)
+* [MongoDB Tutorial 2 : Insert, Update, Remove, Query](https://www.youtube.com/watch?v=CB9G5Dvv-EE)
+* [Aggregation](https://www.mongodb.com/docs/manual/aggregation/)
+* [Introduction to MongoDB and Python](https://realpython.com/introduction-to-mongodb-and-python/)
+* [mongo Shell Methods](https://www.mongodb.com/docs/manual/reference/method/)
+* [The mongo Shell](https://www.mongodb.com/docs/)
 
 ## Technologies
 * MongoDB 4.2 in Ubuntu 18.04
@@ -56,14 +56,16 @@ $ python3
 '3.10.1'
 </details>
 
-### Potential issue:
+#### Potential issue:
 * if documents creation doesn’t work or this error: `Data directory /data/db not found., terminating`
+
 ** [Fixing /data/db not found error in MacOS X when starting MongoDB](https://bryantson.medium.com/fixing-data-db-not-found-error-in-macos-x-when-starting-mongodb-d7b82abb2479)
+
 ** [MongoDB data/db not found](https://stackoverflow.com/questions/37702957/mongodb-data-db-not-found)
 
 `$ sudo mkdir -p /data/db`
 
-* if /etc/init.d/mongod is missing, please find here an example of the file
+* or if `/etc/init.d/mongod` is missing, please find here an example of the file
 
 <details><summary>Click to expand/hide file contents</summary>
 #!/bin/sh
